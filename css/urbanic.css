@@ -74,3 +74,61 @@ footer {
 	padding: 10px;
 }
 
+@media (max-width: 768px){
+
+/* header */
+
+header{
+flex-direction: column;
+padding: 10px;
+text-align: center;
+}
+
+.navigation a{
+display: block;
+padding: 10px 0;
+}
+
+/* title */
+
+.title{
+font-size: 26px;
+text-align: center;
+}
+
+/* cards */
+
+.projects-cards{
+flex-direction: column;
+width: 90%;
+margin: 10px auto;
+padding: 15px;
+}
+
+/* image */
+
+.projects-img img{
+width: 100%;
+margin-bottom: 10px;
+}
+
+/* info */
+
+.project-info{
+flex-direction: column;
+}
+
+.info{
+flex-direction: column;
+gap: 10px;
+}
+
+/* footer */
+
+footer{
+font-size: 14px;
+text-align: center;
+}
+
+}
+
